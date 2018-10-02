@@ -7,7 +7,7 @@ import logo from "./images/logo.svg"
 // components
 import Home from "./components/Home"
 import About from "./components/About"
-import Navigation from "./components/Navigation"
+import Header from "./components/Header"
 
 // styles
 import "./scss/App.scss"
@@ -16,15 +16,13 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div className="App">
-                    <header className="App-header">
-                        <img src={logo} className="App-logo" alt="logo" />
-
+                <div className="app">
+                    <Header />
+                    <img src={logo} className="app-logo" alt="logo" />
+                    <div className="content">
                         <Route exact path="/" component={Home} />
                         <Route exact path="/about" component={About} />
-
-                        <Navigation />
-                    </header>
+                    </div>
                 </div>
             </Router>
         )

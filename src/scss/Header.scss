@@ -1,0 +1,7 @@
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    justify-self: stretch;
+    margin: 1rem 2rem;
+}

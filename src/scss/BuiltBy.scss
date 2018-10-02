@@ -1,0 +1,16 @@
+.built-by {
+    display: grid;
+    align-self: end;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 0.4rem;
+    font-size: 1.5rem;
+
+    a {
+        padding-top: 0.45rem;
+    }
+
+    svg {
+        width: 1.5rem;
+        fill: white;
+    }
+}

@@ -6,12 +6,8 @@ import "../scss/Navigation.scss"
 const Navigation = () => {
     return (
         <div className="navigation">
-            <a className="App-link" href="/">
-                Home
-            </a>
-            <a className="App-link" href="/about">
-                About
-            </a>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
         </div>
     )
 }
