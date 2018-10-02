@@ -3,7 +3,7 @@ import {Component} from "react"
 import logo from "./images/logo.svg"
 
 // styles
-import "./scss/App.css"
+import "./scss/App.scss"
 
 class App extends Component {
     render() {
