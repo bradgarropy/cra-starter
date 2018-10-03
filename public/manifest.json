@@ -7,9 +7,9 @@
     "background_color": "#ffffff",
     "icons": [
         {
-            "src": "favicon.ico",
+            "src": "react-pwa.png",
             "sizes": "144x144 64x64 32x32 24x24 16x16",
-            "type": "image/x-icon"
+            "type": "image/png"
         }
     ]
 }
