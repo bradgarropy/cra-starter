@@ -1,6 +1,6 @@
 {
     "name": "cra-starter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "💩 crapp starter",
     "keywords": [
         "create-react-app",
@@ -29,9 +29,9 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "node-sass": "^4.9.3",
-        "react": "^16.5.2",
-        "react-dom": "^16.5.2",
+        "node-sass": "^4.11.0",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3",
         "react-router-dom": "^4.3.1",
         "react-scripts": "2.0.3"
     },
